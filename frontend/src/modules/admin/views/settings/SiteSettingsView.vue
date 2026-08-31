@@ -23,7 +23,7 @@ const { dialogState, confirm, handleConfirm, handleCancel } = useConfirmDialog()
 const siteSettings = ref({
   site_title: "CloudPaste",
   site_favicon_url: "",
-  site_footer_markdown: "© 2025 CloudPaste. 保留所有权利。",
+  site_footer_markdown: "© 2026 Hui Cloud Drive. 保留所有权利。",
   site_announcement_enabled: false,
   site_announcement_content: "",
   site_custom_head: "",
