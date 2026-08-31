@@ -93,9 +93,9 @@ export const useSiteConfigStore = defineStore("siteConfig", () => {
   // ===== 状态定义 =====
 
   // 站点配置
-  const siteTitle = ref("CloudPaste"); // 默认站点标题
+  const siteTitle = ref("Hui Cloud Drive"); // 默认站点标题
   const siteFaviconUrl = ref(""); // 站点图标URL
-  const siteFooterMarkdown = ref("© 2025 CloudPaste. 保留所有权利。"); // 页脚Markdown内容
+  const siteFooterMarkdown = ref("© 2026 Hui Cloud Drive. 保留所有权利。"); // 页脚Markdown内容
   const siteCustomHead = ref(""); // 自定义头部
   const siteCustomBody = ref(""); // 自定义body
 
@@ -242,7 +242,7 @@ export const useSiteConfigStore = defineStore("siteConfig", () => {
           siteTitle.value = titleSetting.value;
         } else {
           // 如果没有找到设置或值为空，使用默认值
-          siteTitle.value = "CloudPaste";
+          siteTitle.value = "Hui Cloud Drive";
         }
 
         // 查找站点图标设置
@@ -339,7 +339,7 @@ export const useSiteConfigStore = defineStore("siteConfig", () => {
       log.error("从API获取站点配置失败:", error);
       // API失败时保持当前值或使用默认值
       if (!siteTitle.value || siteTitle.value === "") {
-        siteTitle.value = "CloudPaste";
+        siteTitle.value = "Hui Cloud Drive";
       }
       return false;
     }
@@ -380,7 +380,7 @@ export const useSiteConfigStore = defineStore("siteConfig", () => {
     } catch (error) {
       log.error("初始化站点配置失败:", error);
       // 初始化失败时使用默认值
-      siteTitle.value = "CloudPaste";
+      siteTitle.value = "Hui Cloud Drive";
       isInitialized.value = true;
     } finally {
       isLoading.value = false;
@@ -412,7 +412,7 @@ export const useSiteConfigStore = defineStore("siteConfig", () => {
    */
   const updateSiteTitle = (newTitle) => {
     if (newTitle && typeof newTitle === "string") {
-      siteTitle.value = newTitle.trim() || "CloudPaste";
+      siteTitle.value = newTitle.trim() || "Hui Cloud Drive";
       lastUpdated.value = Date.now();
       saveToStorage();
       log.debug("站点标题已更新:", siteTitle.value);
