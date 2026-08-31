@@ -21,7 +21,7 @@ const { dialogState, confirm, handleConfirm, handleCancel } = useConfirmDialog()
 
 // 站点设置
 const siteSettings = ref({
-  site_title: "CloudPaste",
+  site_title: "Hui Cloud Drive",
   site_favicon_url: "",
   site_footer_markdown: "© 2026 Hui Cloud Drive. 保留所有权利。",
   site_announcement_enabled: false,
