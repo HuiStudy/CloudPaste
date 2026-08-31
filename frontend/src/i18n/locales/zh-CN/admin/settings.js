@@ -225,7 +225,7 @@ export default {
     footer: {
       label: "页脚内容",
       hint: "支持 Markdown 格式，可以使用链接、粗体等语法，留空则不显示页脚",
-      placeholder: "© 2025 CloudPaste. 保留所有权利。",
+      placeholder: "© 2026 Hui Cloud Drive. 保留所有权利。",
     },
     frontendEntries: {
       title: "前台入口开关",
