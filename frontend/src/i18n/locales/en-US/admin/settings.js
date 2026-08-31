@@ -228,7 +228,7 @@ export default {
     footer: {
       label: "Footer Content",
       hint: "Supports Markdown format, you can use links, bold text, etc. Leave empty to hide footer",
-      placeholder: "© 2025 CloudPaste. All rights reserved.",
+      placeholder: "© 2026 Hui Cloud Drive. All rights reserved.",
     },
     frontendEntries: {
       title: "Frontend Entry Toggles",
