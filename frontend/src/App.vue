@@ -71,7 +71,7 @@ const isMobileMenuOpen = ref(false);
 const showEnvSwitcher = ref(false);
 
 // GitHub 链接
-const githubUrl = "https://github.com/ling-drag0n/CloudPaste";
+const githubUrl = "https://github.com/HuiStudy/CloudPaste";
 
 // 检查是否为开发环境
 const isDev = import.meta.env.DEV;
