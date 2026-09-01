@@ -342,8 +342,8 @@ export default defineConfig(({ command, mode }) => {
         },
         includeAssets: ["favicon.ico", "apple-touch-icon.png", "robots.txt", "dist/**/*"],
         manifest: {
-          name: "CloudPaste",
-          short_name: "CloudPaste",
+          name: "Hui Cloud Drive",
+          short_name: "CloudDrive",
           description: "安全分享您的内容，支持 Markdown 编辑和文件上传",
           theme_color: "#0ea5e9",
           background_color: "#ffffff",
