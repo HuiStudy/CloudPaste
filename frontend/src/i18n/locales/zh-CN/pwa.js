@@ -34,7 +34,7 @@ export default {
       installable: "可安装",
       installing: "安装中",
       installApp: "安装应用",
-      installPrompt: "将 CloudPaste 添加到主屏幕，获得更好的使用体验",
+      installPrompt: "将 Hui Cloud Drive 添加到主屏幕，获得更好的使用体验",
     },
 
     // Service Worker 状态
@@ -88,7 +88,7 @@ export default {
     // 安装提示
     installPrompt: {
       title: "安装应用",
-      message: "将 CloudPaste 添加到主屏幕，获得更好的使用体验",
+      message: "将 Hui Cloud Drive 添加到主屏幕，获得更好的使用体验",
       install: "安装",
       later: "稍后",
       dismiss: "稍后",
