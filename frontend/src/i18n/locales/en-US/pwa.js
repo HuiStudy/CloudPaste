@@ -34,7 +34,7 @@ export default {
       installable: "Installable",
       installing: "Installing",
       installApp: "Install App",
-      installPrompt: "Add CloudPaste to your home screen for a better experience",
+      installPrompt: "Add Hui Cloud Drive to your home screen for a better experience",
     },
 
     // Service Worker status
@@ -88,7 +88,7 @@ export default {
     // Install prompt
     installPrompt: {
       title: "Install App",
-      message: "Add CloudPaste to your home screen for a better experience",
+      message: "Add Hui Cloud Drive to your home screen for a better experience",
       install: "Install",
       later: "Later",
       dismiss: "Later",
